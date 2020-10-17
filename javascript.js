@@ -4,11 +4,11 @@ function getRandomValue(list) {
 }
 
 function createSection(section) {
-  $("#main").append(`<section id="${section}" class="container"><h1>${section}</h1></section>`);
+  $("#main").append(`<h1 mb-4>${section}</h1><div id="${section}" class="card-deck"></div>`);
 }
 
 function createSubsection(section, subsection, text) {
-  $(`#${section}`).append(`<div id="${subsection}" class="col-sm-4"><h2>${subsection}</h2><p>${text}<p></div>`)
+  $(`#${section}`).append(`<div class="card mb-4"><h2 id="${subsection}" class="card-header">${subsection}</h2><div class="card-body">${text}</div></div></div>`)
 }
 
 $(document).ready(function() {

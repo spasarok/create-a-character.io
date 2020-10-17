@@ -1,0 +1,15 @@
+body {
+  font-size: 1.25rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.0rem;
+  font-weight: 600;
+  letter-spacing: -.01rem;
+  text-transform: uppercase;
+
+}
